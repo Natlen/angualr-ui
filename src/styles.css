@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin:0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.component-controller{
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    /* background-color: #23272A; */
+    background-color: #171C2C;
+    opacity: 0.94;
+    box-shadow: rgba(0, 0, 0, 0.64) 0px -4px 16px 0px ;
+    min-height: 64px;
+    color: whitesmoke;
+    margin-top: 64px;
+}
+.component-title{
+    text-align: center;
+    padding-top: 16px;
+}

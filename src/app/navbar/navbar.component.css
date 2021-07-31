@@ -1,0 +1,24 @@
+.navbar-container{
+    background-color: #2C2F33;
+    color: whitesmoke;
+    font-size: 20px;
+    min-height: 64px;
+}
+.navbar-menu-entries-container{
+    background-color: #2C2F33;
+    text-align: center;
+    padding: 20px 16px 20px 16px;
+}
+.navbar-mobile-menu-icon{
+    padding: 16px 0px 0px 8px;
+    
+}
+.navbar-mobile-menu-icon > .mat-icon {
+    font-size:32px;
+}
+.separator{
+    padding-top: 1px;
+    width: 80%;
+    background-image: linear-gradient(to bottom right,#e0114ff6, #fee140);
+    height: fit-content;
+}
