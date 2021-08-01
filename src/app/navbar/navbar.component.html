@@ -1,13 +1,13 @@
 <div class="navbar-container">
-  <div fxLayout fxLayoutAlign="space-between center">
-    <div class="navbar-mobile-menu-icon" fxHide fxShow.xs><mat-icon (click)="dropMenuDown()">menu</mat-icon></div>
-    <div fxHide fxShow.xs style="padding-top:10px; padding-right: 16px;">NATLEN</div>
+  <div class="navbar-row" fxLayout fxLayoutAlign="space-between center">
+    <div id="navbar-menu-icon" class="navbar-menu-icon" fxHide fxShow.xs><mat-icon (click)="dropMenuDown()">menu</mat-icon></div>
+    <div fxHide fxShow.xs>NATLEN</div>
   </div>
-  <div class="navbar-menu-entries-container" fxLayoutGap.gt-xs="32px" fxLayoutGap.xs="16px" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="start cneter" fxshow.gt-xs fxHide.xs [fxShow.xs]="drop_down" fxLayout.xs="column" fxLayoutAlign.xs="center center">
-    <div class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/']">HOME</div>
-    <div class="navbar-menu-entry separator" fxHide fxShow.xs></div>
-    <div class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/about-me']">ABOUT ME</div>
-    <div class="navbar-menu-entry separator" fxHide fxShow.xs></div>
-    <div class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/projects']">PROJECTS</div>
-  </div>
+  <ul class="navbar-menu-entries-container" fxLayoutGap.gt-xs="32px" fxLayoutGap.xs="16px" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="start cneter" fxshow.gt-xs fxHide.xs [fxShow.xs]="drop_down" fxLayout.xs="column" fxLayoutAlign.xs="start center">
+    <li class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/']">HOME</li>
+    <li class="navbar-menu-entry separator" fxHide fxShow.xs></li>
+    <li class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/about-me']">ABOUT ME</li>
+    <li class="navbar-menu-entry separator" fxHide fxShow.xs></li>
+    <li class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/projects']">PROJECTS</li>
+  </ul>
 </div>
