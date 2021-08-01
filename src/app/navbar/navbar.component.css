@@ -9,6 +9,10 @@
     text-align: center;
     padding: 20px 16px 20px 16px;
 }
+.navbar-menu-entry{
+    animation-name: navbar-menu-entry-animation;
+    animation-duration: 1s;
+}
 .navbar-mobile-menu-icon{
     padding: 16px 0px 0px 8px;
     
@@ -21,4 +25,11 @@
     width: 80%;
     background-image: linear-gradient(to bottom right,#e0114ff6, #fee140);
     height: fit-content;
+}
+
+@keyframes navbar-menu-entry-animation {
+    from { opacity: 0;
+        transform: translateY(-32px);}
+    to {opacity: 1;
+        transform: translateY(0px); }  
 }
