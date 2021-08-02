@@ -3,7 +3,7 @@
     <div id="navbar-menu-icon" class="navbar-menu-icon" fxHide fxShow.xs><mat-icon (click)="dropMenuDown()">menu</mat-icon></div>
     <div fxHide fxShow.xs>NATLEN</div>
   </div>
-  <ul class="navbar-menu-entries-container" fxLayoutGap.gt-xs="32px" fxLayoutGap.xs="16px" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="start cneter" fxshow.gt-xs fxHide.xs [fxShow.xs]="drop_down" fxLayout.xs="column" fxLayoutAlign.xs="start center">
+  <ul id="navbar_menu_entries_container" class="navbar-menu-entries-container" fxLayoutGap.gt-xs="32px" fxLayoutGap.xs="16px" fxLayout.gt-xs="row" fxLayoutAlign.gt-xs="start cneter" fxshow.gt-xs fxHide.xs [fxShow.xs]="drop_down" fxLayout.xs="column" fxLayoutAlign.xs="start center">
     <li class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/']">HOME</li>
     <li class="navbar-menu-entry separator" fxHide fxShow.xs></li>
     <li class="navbar-menu-entry" (click)="dropMenuDown()" [routerLink]="['/about-me']">ABOUT ME</li>

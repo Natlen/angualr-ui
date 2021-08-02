@@ -10,9 +10,9 @@ body { margin:0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     opacity: 0.94;
     box-shadow: rgba(0, 0, 0, 0.64) 0px -4px 16px 0px ;
     min-height: 64px;
-    color: whitesmoke;
     margin-top: 64px;
     margin-bottom: 64px;
+    color: whitesmoke;
 }
 .component-title{
     text-align: center;
@@ -21,4 +21,5 @@ body { margin:0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .component-text{
     margin: 16px;
     font-size: 16px;
+    padding-bottom: 32px;
 }
